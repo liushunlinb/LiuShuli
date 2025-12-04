@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="LSLFruitsRecognition.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="LSLFruitsRecognition.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="LSLFruitsRecognition.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="LSLFruitsRecognition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QScrollArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Binaryvalue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Canny.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="laplace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sebel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gaussianfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Houghlineartransformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramEqualization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageReSize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resigeter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="myclass.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QScrollArea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Binaryvalue.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Canny.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="laplace.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="sebel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Gaussianfilter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Houghlineartransformation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="HistogramEqualization.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ImageReSize.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Resigeter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Start.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="myclass.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="QScrollArea.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Binaryvalue.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Canny.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="laplace.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="sebel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Gaussianfilter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Houghlineartransformation.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="HistogramEqualization.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ImageReSize.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Resigeter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

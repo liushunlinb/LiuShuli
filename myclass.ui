@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myclassClass</class>
+ <widget class="QMainWindow" name="myclassClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1314</width>
+    <height>738</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>myclass</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel{
+	font: 25 10pt &quot;微软雅黑&quot;;
+	border-radius: 4px;
+	background-color:rgba(60, 60, 60, 100);
+	color:rgb(255,255,255);
+}
+QPushButton
+{
+	color:white;
+}
+QMessageBox
+{
+	color:white;
+}
+QComboBox
+{
+	background-color:rgba(0, 200, 200, 200);
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+	font-style:italic;
+	border-radius: 4px;
+	padding: 1px 5px;
+}
+QComboBox QAbstractItemView
+{
+	background:rgba(0, 200, 200, 200);
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+	font-style:italic;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralWidget{
+	background-color: rgb(51, 51, 51);
+	color:rgb(200,200,200);
+border-radius: 8px;
+}
+</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#pushButton 
+{
+	background-color:rgba(0, 200, 200, 200);
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+	font-style:italic;
+	border-radius:4px;
+}
+QGroupBox
+{
+	border: none;
+}
+QComboBox::item
+{
+	background:rgba(0, 200, 200, 200);
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+	font-style:italic;
+}</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QComboBox" name="comboBox">
+           <property name="styleSheet">
+            <string notr="true">QComboBox::item
+{
+	background:rgba(0, 200, 200, 200);
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+	font-style:italic;
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>水果识别普通版</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>水果模型VIP</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_2">
+           <property name="styleSheet">
+            <string notr="true">QComboBox::item
+{
+	background:rgba(0, 200, 200, 200);
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+	font-style:italic;
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>水果识别中文</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>FruitsRecongition</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="styleSheet">
+         <string notr="true">QLabel{
+		border-radius:4px;
+		background-color: rgba(60, 60, 60, 100);
+		font-size:50px;
+		color:red;
+		font-weight:bold;
+font-style:italic;
+/*设置文本对齐方式，不支持text-align*/
+qproperty-alignment:'AlignVcenter|AlignRight';/*设置文本垂直方向居中对齐，水平方向右对齐*/
+}
+QGroupBox
+{
+	border: none;
+}
+</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1,8">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QTextEdit" name="textEdit">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;
+background-color: rgb(255, 255, 255);
+border-radius: 4px;
+padding: 1px 5px</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="styleSheet">
+              <string notr="true">QPushButton 
+{
+	background-color:rgba(0, 200, 200, 200);
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+	font-style:italic;
+border-radius:4px;
+padding: 1px 5px
+}
+QPushButton:hover 
+{
+    background-color: gray;
+}
+QPushButton:pressed 
+{
+    padding-top: 2px;
+    padding-left: 1px;
+}
+QPushButton:disabled 
+{
+    color: gray;
+}
+</string>
+             </property>
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="4,6">
+           <item>
+            <widget class="QPlainTextEdit" name="plainTextEdit">
+             <property name="minimumSize">
+              <size>
+               <width>300</width>
+               <height>576</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(60, 60, 60, 100);
+border: none;</string>
+             </property>
+             <property name="plainText">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="styleSheet">
+              <string notr="true">border-image:url(图标路径);
+background-color:transparent;/*将背景色设置为透明，防止图片覆盖不到的区域有背景底色*/
+color:#212129;/*设置显示文字的颜色*/
+font:72pt &quot;Arial&quot;;/*设置字体和大小*/</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="textFormat">
+              <enum>Qt::AutoText</enum>
+             </property>
+             <property name="pixmap">
+              <pixmap>D:/C++/OpenCV/fruit-recognition-master (3)/fruit-recognition-master/fruit-identification/shuiguo.jpg</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="LSLFruitsRecognition.qrc"/>
+ </resources>
+ <connections/>
+</ui>

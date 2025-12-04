@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>laplaceClass</class>
+ <widget class="QWidget" name="laplaceClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1283</width>
+    <height>781</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>laplace</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#laplaceClass{
+	background-color: rgb(51, 51, 51);
+	color:rgb(200,200,200);
+	border-radius: 8px;
+
+}
+
+QLabel{
+		border-radius:4px;
+		background-color: rgba(60, 60, 60, 100);
+		font-size:50px;
+		color:red;
+		font-weight:bold;
+border: none;
+font-style:italic;
+/*设置文本对齐方式，不支持text-align*/
+qproperty-alignment:'AlignVcenter|AlignRight';/*设置文本垂直方向居中对齐，水平方向右对齐*/
+}
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>laplace算子</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>1259</width>
+         <height>700</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>1259</width>
+         <height>700</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

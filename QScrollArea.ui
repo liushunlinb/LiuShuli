@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QScrollAreaClass</class>
+ <widget class="QWidget" name="QScrollAreaClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1375</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QScrollArea</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+	background-color:rgb(26,26,26);
+}
+QWidget#QScrollAreaClass
+{
+	border-radius:8px;
+}
+QListWidget
+{
+	background-color:rgb(26,26,26);
+	color:rgb(200,200,200);
+	font-size:15px;
+	border-radius:1px
+}
+
+QListWidget::item
+{
+	height:40px;
+	padding-left:10px;
+}
+QListWidget::item:!active
+{
+	background:rgb(26,26,26);
+	margin:5px 20px 1px 20px;
+}
+QListWidget::item:hover
+{
+	background:rgb(56,56,56);
+	padding-left:30px;
+}
+QListWidget::item:selected
+{
+	border-radius:15px;
+	background:lightblue;
+}
+QListWidget::item:selected:!active
+{
+	background:rgb(51,51,51);
+	color:#3F85FF;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1402</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QListWidget" name="listWidget">
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string>图片识别</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>canny检测</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>laplace算子</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>sobel导数</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>二值化</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>高斯滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>直方图均衡化</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>霍夫线性变换</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>图像尺寸转换</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="minimumSize">
+       <size>
+        <width>1250</width>
+        <height>800</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1250</width>
+        <height>800</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1250</width>
+         <height>800</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

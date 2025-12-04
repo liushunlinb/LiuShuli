@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/LSLFruitsRecognition">
+        <file>Resources/background.png</file>
+        <file>Resources/back.jpg</file>
+        <file>Resources/close.svg</file>
+        <file>Resources/minus.svg</file>
+        <file>Resources/backlogo.png</file>
+        <file>Resources/backright.jpg</file>
+        <file>Resources/a.jpg</file>
+        <file>Resources/setting-filling.svg</file>
+        <file>Resources/fruit.svg</file>
+        <file>Resources/水果.png</file>
+    </qresource>
+</RCC>
